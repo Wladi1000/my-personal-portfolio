@@ -1,0 +1,17 @@
+.projects{
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+
+  &--title{
+    font-size: 36px;
+    margin: 24px 0;
+  }
+
+  &__carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

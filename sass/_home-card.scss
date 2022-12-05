@@ -1,0 +1,63 @@
+.home__card{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 20px;
+  background-color: #1e2326;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  border-radius: 40px;
+
+  color: #fff;
+
+  &--me{
+
+    border: 10px solid #41B883;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+
+  }
+
+  &--name{
+    margin-top: 40px;
+    font-size: 42px;
+  }
+
+  &--details{
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  &__social-networks{
+    display: flex;
+
+    justify-content: space-around;
+
+    list-style: none;
+
+    li{
+      padding: 10px;
+      max-width: 350px;
+      margin: 20px;
+
+      text-align: center;
+      border: solid #fff;
+      border-radius: 100%;
+      a{
+
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+      }
+    }
+
+  }
+
+}

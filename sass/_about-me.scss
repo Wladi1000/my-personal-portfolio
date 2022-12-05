@@ -1,0 +1,25 @@
+.about-me{
+
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: justify;
+
+  &__title{
+
+    &--greeting{
+      font-size: 32px;
+    }
+    &--name{
+      font-size: 36px;
+      // color: #a50876;
+      color: #41B883;
+    }
+  }
+  &--details{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+}

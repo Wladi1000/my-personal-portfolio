@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 25PX;
+  font-size: 100%;
+  color: #fff;
+  background-color: #38153b;
+}
+.header--logo {
+  display: none;
+  font-size: 36px;
+  color: #1CB698;
+  text-decoration: none;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header__nav ul li {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.header__nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1e2326;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+}
+.home__card--me {
+  border: 10px solid #41B883;
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-radius: 100%;
+}
+.home__card--name {
+  margin-top: 40px;
+  font-size: 42px;
+}
+.home__card--details {
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: normal;
+}
+.home__card__social-networks {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.home__card__social-networks li {
+  padding: 10px;
+  max-width: 350px;
+  margin: 20px;
+  text-align: center;
+  border: solid #fff;
+  border-radius: 100%;
+}
+.home__card__social-networks li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), #1e2326), url(../img/me-backgound.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.about-me {
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: justify;
+}
+.about-me__title--greeting {
+  font-size: 32px;
+}
+.about-me__title--name {
+  font-size: 36px;
+  color: #41B883;
+}
+.about-me--details {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #252A2E;
+  color: #fff;
+}
+.skills--title {
+  font-size: 36px;
+  margin: 24px 0;
+}
+.skills h2 {
+  font-size: 20xp;
+  margin-bottom: 24px;
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.skills img {
+  margin: 5px 10px;
+  width: 75px;
+}
+
+.projects__carousel__card {
+  background: #171923;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 1rem;
+  margin: 25px 25px;
+  padding: 2rem;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.25s ease-in-out 0s;
+}
+.projects__carousel__card img {
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  border-radius: 1rem 1rem 0 0;
+  margin: auto;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.projects__carousel__card h2 {
+  color: #41B883;
+  font-size: 24px;
+  margin: 15px 8px;
+}
+.projects__carousel__card p {
+  font-size: 16px;
+}
+.projects__carousel__card ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects__carousel__card ul li {
+  margin: 15px 5px 0 5px;
+  padding: 5px 14px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #921944;
+}
+.projects__carousel__card__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projects__carousel__card__buttons a {
+  margin: 15px 5px 0 5px;
+  padding: 5px 14px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #921944;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #6e0099;
+}
+
+.projects {
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+}
+.projects--title {
+  font-size: 36px;
+  margin: 24px 0;
+}
+.projects__carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
