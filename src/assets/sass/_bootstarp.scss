@@ -1,0 +1,18 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+//@import 'bootstrap.scss';
+
+// Barra de navegacion
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+.navbar {
+  padding: 2rem;
+  background: #f5f6f7;
+  
+  &-collapse{
+    align-items: center;
+    justify-content: space-between  ;
+  }
+}
