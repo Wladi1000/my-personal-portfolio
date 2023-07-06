@@ -11877,6 +11877,32 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-oscura {
+  color: #fff;
+  background-color: #1b1b32;
+}
+.section-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-weight: 700;
+}
+.section-texto {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
 .hero {
   background-color: #f5f6f7;
   min-height: 450px;
@@ -11888,6 +11914,9 @@ textarea.form-control-lg {
 .hero-principal h2, .hero-principal .h2 {
   font-size: 1.5rem;
   color: #615151;
+}
+.hero-inferior {
+  margin-bottom: 10px;
 }
 .hero-imagen-desarrollador {
   width: 200px;
@@ -11902,16 +11931,13 @@ textarea.form-control-lg {
     max-width: 600px;
   }
 }
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.about-me {
+  height: 500px;
+  padding: 10px;
 }
-
-h1, .h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+.about-me .contenedor {
+  max-width: 600px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
