@@ -1,11 +1,8 @@
 <script setup>
 import navbar from "./components/navbar.vue";
+import homeHeroVue from "./sections/home-hero.vue";
 </script>
 <template>
   <navbar />
-
-  <main>
-    <h1>Hola mundo</h1>
-    <button class="btn btn-outline-danger">Boton bootstrap</button>
-  </main>
+  <homeHeroVue />
 </template>
