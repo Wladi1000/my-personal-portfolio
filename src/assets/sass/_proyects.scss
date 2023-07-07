@@ -1,0 +1,98 @@
+.proyectos-recientes {
+    padding: 40px;
+
+    .proyectos-contenedor {
+        padding-top: 60px;
+        margin-bottom: 40px;
+
+        .proyecto {
+            position: relative;
+            margin: 5px;
+            // Tecnologias usadas
+            .badges-contenedor {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                .badge {
+                    //width: 30%;
+                    margin: 15px 5px 0 5px;
+                    padding: 5px 14px;
+                    border: 2px solid #f6f6f6;
+                    border-radius: 20px;
+                    background-color: #921944;
+                    color: #f6f6f6;
+    
+                    &:hover {
+                        cursor: default;
+                    }
+                }
+            }
+
+
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                display: block;
+                transition: all 0.2s ease;
+                object-fit: cover;
+            }
+
+            .overlay {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                transition: all 0.2s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+
+                p {
+                    font-size: 25px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                }
+
+
+
+                @media screen and (max-width: 400px) {
+                    p {
+                        font-size: 18px;
+                    }
+                }
+
+                .iconos-contenedor {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i {
+                        color: #1b1b32;
+                        font-size: 50px;
+                        margin: 10px;
+                    }
+
+                    @media screen and (max-width: 400px) {
+                        i {
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+
+
+            &:hover .overlay {
+                opacity: 1;
+            }
+
+            &:hover img {
+                opacity: 0.2;
+            }
+        }
+    }
+}

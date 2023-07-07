@@ -1,0 +1,25 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+//@import 'bootstrap.scss';
+
+// Barra de navegacion
+
+// Adaptable responsivo
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+.navbar {
+  padding: 2rem;
+  background: #f5f6f7;
+  
+  &-collapse{
+    align-items: center;
+    justify-content: space-between  ;
+  }
+}
+.btn-info{
+  font-size: 1.1rem;
+  font-weight: bolde;
+  margin: 20px;
+}
