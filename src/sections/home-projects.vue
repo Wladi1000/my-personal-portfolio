@@ -1,7 +1,7 @@
 <script setup>
 const projects = [
   {
-    img: "./src/assets/img/projects/02.jpeg",
+    img: "../assets/img/projects/02.jpeg",
     title: "Launch countdown timer",
     description:
       "Countdown timer set in a rocket launch. Challenge assigned from the page frontendmentor.io",
@@ -10,7 +10,7 @@ const projects = [
     repo: "https://github.com/Wladi1000/Launch-countdown-timer",
   },
   {
-    img: "./src/assets/img/projects/13.jpeg",
+    img: "../assets/img/projects/13.jpeg",
     title: "Personal Portfolio",
     description: "Personal portfolio for the presentation of my projects",
     tools: ["Vue.js", "Sass"],
@@ -18,7 +18,7 @@ const projects = [
     repo: "https://github.com/Wladi1000/my-personal-portfolio",
   },
   {
-    img: "./src/assets/img/projects/11.jpeg",
+    img: "../assets/img/projects/11.jpeg",
     title: "Samurai Game",
     description:
       "Game made with Vanilla JavaScript, made as a practice of the mentioned language",
