@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <section class="experience section-clara">
+  <section id="experience" class="experience section-clara">
     <div class="container text-center">
       <div class="row">
         <!-- Desarrollo Web -->

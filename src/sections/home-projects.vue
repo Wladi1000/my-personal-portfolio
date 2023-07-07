@@ -29,7 +29,7 @@ const projects = [
 ];
 </script>
 <template>
-  <section class="proyectos-recientes section-clara d-flex flex-column">
+  <section id="projects" class="proyectos-recientes section-clara d-flex flex-column">
     <h2 class="section-titulo">Projects</h2>
     <h3 class="section-descripcion">These are some projects I have done</h3>
     <!-- Galeria de proyectos -->

@@ -12,17 +12,17 @@
       </a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+          <a class="nav-link active" aria-current="page" href="#about-me">Sobre mi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Proyectos</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonios</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>
