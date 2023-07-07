@@ -1,11 +1,11 @@
 .proyectos-recientes {
     padding: 40px;
 
-    & .proyectos-contenedor {
+    .proyectos-contenedor {
         padding-top: 60px;
         margin-bottom: 40px;
 
-        & .proyecto {
+        .proyecto {
             position: relative;
             margin: 5px;
             // Tecnologias usadas
@@ -29,7 +29,7 @@
             }
 
 
-            & img {
+            img {
                 height: 100%;
                 width: 100%;
                 border-radius: 10px;
@@ -38,7 +38,7 @@
                 object-fit: cover;
             }
 
-            & .overlay {
+            .overlay {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -52,7 +52,7 @@
                 transform: translate(-50%, -50%);
                 text-align: center;
 
-                & p {
+                p {
                     font-size: 25px;
                     font-weight: bold;
                     margin-bottom: 0;
@@ -61,24 +61,24 @@
 
 
                 @media screen and (max-width: 400px) {
-                    & p {
+                    p {
                         font-size: 18px;
                     }
                 }
 
-                & .iconos-contenedor {
+                .iconos-contenedor {
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
-                    & i {
+                    i {
                         color: #1b1b32;
                         font-size: 50px;
                         margin: 10px;
                     }
 
                     @media screen and (max-width: 400px) {
-                        & i {
+                        i {
                             font-size: 40px;
                         }
                     }
