@@ -7,11 +7,11 @@ section{
 }
 .section{
     &-oscura{
-        color: #fff;
+        color: #f6f6f6;
         background-color: #1b1b32;
     }
     &-clara{
-        background-color: #fff;
+        background-color: #f6f6f6;
         color: #1b1b32;
     }
     &-titulo{
@@ -23,6 +23,16 @@ section{
         font-size: 1.2rem;
         padding: 5px;
     }
+    &-descripcion{
+        font-size: 1.2rem;
+        color: #584e4e;
+    }
+}
+.texto-negro{
+    color: #1b1b32;
+}
+.texto-blanco{
+    color: #f6f6f6;
 }
 h1{
     font-size: 2.5rem;

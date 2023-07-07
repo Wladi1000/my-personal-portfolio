@@ -11877,6 +11877,12 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 
+.btn-info {
+  font-size: 1.1rem;
+  font-weight: bolde;
+  margin: 20px;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -11885,11 +11891,11 @@ section {
 }
 
 .section-oscura {
-  color: #fff;
+  color: #f6f6f6;
   background-color: #1b1b32;
 }
 .section-clara {
-  background-color: #fff;
+  background-color: #f6f6f6;
   color: #1b1b32;
 }
 .section-titulo {
@@ -11900,6 +11906,18 @@ section {
 .section-texto {
   font-size: 1.2rem;
   padding: 5px;
+}
+.section-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.texto-negro {
+  color: #1b1b32;
+}
+
+.texto-blanco {
+  color: #f6f6f6;
 }
 
 h1, .h1 {
@@ -11979,6 +11997,87 @@ h1, .h1 {
 .experience .column:hover {
   color: white;
   background: #1b1b32;
+}
+
+.proyectos-recientes {
+  padding: 40px;
+}
+.proyectos-recientes .proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto {
+  position: relative;
+  margin: 5px;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .badges-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .badges-contenedor .badge {
+  margin: 15px 5px 0 5px;
+  padding: 5px 14px;
+  border: 2px solid #f6f6f6;
+  border-radius: 20px;
+  background-color: #921944;
+  color: #f6f6f6;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .badges-contenedor .badge:hover {
+  cursor: default;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+  object-fit: cover;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 400px) {
+  .proyectos-recientes .proyectos-contenedor .proyecto .overlay p {
+    font-size: 18px;
+  }
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .overlay .iconos-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto .overlay .iconos-contenedor i {
+  color: #1b1b32;
+  font-size: 50px;
+  margin: 10px;
+}
+@media screen and (max-width: 400px) {
+  .proyectos-recientes .proyectos-contenedor .proyecto .overlay .iconos-contenedor i {
+    font-size: 40px;
+  }
+}
+.proyectos-recientes .proyectos-contenedor .proyecto:hover .overlay {
+  opacity: 1;
+}
+.proyectos-recientes .proyectos-contenedor .proyecto:hover img {
+  opacity: 0.2;
 }
 
 /*# sourceMappingURL=main.css.map */
