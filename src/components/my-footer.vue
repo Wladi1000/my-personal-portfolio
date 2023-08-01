@@ -5,13 +5,13 @@
         <img src="" alt="" class="footer-icono">
         <p class="footer-texto text-center">Learn and Develop Everyday.</p>
         <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justiy-content-center">
-            <a href="#" target="_blanck" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/mayorwladi/" target="_blanck" rel="noopener noreferrer">
                 <i class="bi bi-instagram"></i>
             </a>
-            <a href="#" target="_blanck" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/wladimir-sanvicente-359096218/" target="_blanck" rel="noopener noreferrer">
                 <i class="bi bi-linkedin"></i>
             </a>
-            <a href="#" target="_blanck" rel="noopener noreferrer">
+            <a href="https://github.com/Wladi1000" target="_blanck" rel="noopener noreferrer">
                 <i class="bi bi-github"></i>
             </a>
             <a href="mailto:wladimirss142@gmail.com" target="_blanck" rel="noopener noreferrer">
