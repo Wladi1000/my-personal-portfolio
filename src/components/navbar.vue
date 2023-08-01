@@ -12,7 +12,7 @@
       </a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#about-me">Sobre mi</a>
+          <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#experience">Experience</a>
