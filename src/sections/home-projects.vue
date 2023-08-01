@@ -1,24 +1,24 @@
 <script setup>
 const projects = [
   {
-    img: "../assets/img/projects/02.jpeg",
+    img: "/projects/02.jpeg",
     title: "Launch countdown timer",
     description:
       "Countdown timer set in a rocket launch. Challenge assigned from the page frontendmentor.io",
-    tools: ["Vue.js"],
+    tools: ["JavaScript", "Vue.js"],
     deploitment: "https://launch-countdown-timer-ws.netlify.app",
     repo: "https://github.com/Wladi1000/Launch-countdown-timer",
   },
   {
-    img: "../assets/img/projects/13.jpeg",
+    img: "/projects/13.jpeg",
     title: "Personal Portfolio",
     description: "Personal portfolio for the presentation of my projects",
-    tools: ["Vue.js", "Sass"],
+    tools: ["JavaScript","Vue.js", "Sass"],
     deploitment: "https://wladimirsanvicente.netlify.app",
     repo: "https://github.com/Wladi1000/my-personal-portfolio",
   },
   {
-    img: "../assets/img/projects/11.jpeg",
+    img: "/projects/11.jpeg",
     title: "Samurai Game",
     description:
       "Game made with Vanilla JavaScript, made as a practice of the mentioned language",
@@ -26,6 +26,24 @@ const projects = [
     deploitment: "https://wladi1000-fighting-game.netlify.app",
     repo: "https://github.com/Wladi1000/fighting-game",
   },
+  {
+    img: "https://user-images.githubusercontent.com/108229029/216751013-8b2ac380-e068-448d-80d4-21b5b59647ea.png",
+    title: "Spotify Clone",
+    description:
+      "Spotify Clone followed by Youtube tutorial by: @johnweeksdev",
+    tools: ["JavaScript", "Vue.js", "Tailwind"],
+    deploitment: null,
+    repo: "https://github.com/Wladi1000/spotify-clone",
+  },
+  {
+    img: "/projects/14.jpeg",
+    title: "UCAB-Cunaguaro",
+    description:
+      "System for the automation of professional practice forms for the UCAB Extension Guayana",
+    tools: ["JavaScript", "Vue.js", "Sass"],
+    deploitment: null,
+    repo: "https://github.com/Lu27656348/UCAB-Cunaguaro",
+  }
 ];
 </script>
 <template>
@@ -45,10 +63,15 @@ const projects = [
             <div class="overlay">
               <p>{{ p.title }}</p>
               <div class="iconos-contenedor">
-                <a :href="p.repo" target="_blanck" rel="noopener noreferrer"
+                <a 
+                  v-if="p.repo"
+                  :href="p.repo" 
+                  target="_blanck" 
+                  rel="noopener noreferrer"
                   ><i class="bi bi-github"></i
                 ></a>
                 <a
+                  v-if="p.deploitment"
                   :href="p.deploitment"
                   target="_blanck"
                   rel="noopener noreferrer"
