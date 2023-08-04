@@ -43,6 +43,15 @@ const projects = [
     tools: ["JavaScript", "Vue.js", "Sass"],
     deploitment: null,
     repo: "https://github.com/Lu27656348/UCAB-Cunaguaro",
+  },
+  {
+    img: "/projects/15.jpeg",
+    title: "Todo App React + TypeScript",
+    description:
+      "Simple Todo list with React+TypeScript",
+    tools: ["React", "TypeScript"],
+    deploitment: "https://todo-app-ts-wladimirsanvicente.netlify.app",
+    repo: "https://github.com/Wladi1000/Todo-app-Ts",
   }
 ];
 </script>
